@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nguyễn An — Web Freelancer</title>
+  <meta name="description" content="Nhận thiết kế landing page, website giới thiệu, tối ưu giao diện. Nhanh, gọn, đúng hẹn.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <div class="logo">AN.DEV</div>
+      <nav>
+        <a href="#services">Dịch vụ</a>
+        <a href="#work">Dự án</a>
+        <a href="#pricing">Bảng giá</a>
+        <a href="#contact" class="btn">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Xin chào, mình là An 👋</h1>
+      <p>Mình làm landing page nhanh, gọn, tối ưu cho điện thoại. Phù hợp shop nhỏ, quán cafe, cá nhân.</p>
+      <a href="#contact" class="btn primary">Nhận báo giá miễn phí</a>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Dịch vụ</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Landing page</h3>
+          <p>Trang bán hàng/giới thiệu 1–3 section, tối ưu chuyển đổi.</p>
+        </div>
+        <div class="card">
+          <h3>Sửa giao diện</h3>
+          <p>Chỉnh màu, font, di chuyển bố cục, sửa lỗi responsive.</p>
+        </div>
+        <div class="card">
+          <h3>Tối ưu tốc độ</h3>
+          <p>Giảm kích thước ảnh, nén CSS/JS, cải thiện điểm Lighthouse.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="container">
+      <h2>Dự án tiêu biểu</h2>
+      <div class="grid-3">
+        <div class="card">
+          <img src="assets/demo1.jpg" alt="Demo 1" />
+          <h3>Quán Cà Phê A</h3>
+          <p>Landing page menu + bản đồ + form đặt bàn.</p>
+        </div>
+        <div class="card">
+          <img src="assets/demo2.jpg" alt="Demo 2" />
+          <h3>Nail Studio B</h3>
+          <p>Trang giới thiệu dịch vụ + bảng giá + đánh giá khách.</p>
+        </div>
+        <div class="card">
+          <img src="assets/demo3.jpg" alt="Demo 3" />
+          <h3>Gia sư Toán C</h3>
+          <p>Trang đặt lịch + form liên hệ + FAQ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section">
+    <div class="container">
+      <h2>Bảng giá tham khảo</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Starter</h3>
+          <p>1 trang, 3 mục</p>
+          <p class="price">599.000đ</p>
+        </div>
+        <div class="card">
+          <h3>Standard</h3>
+          <p>1–2 trang, 5 mục</p>
+          <p class="price">999.000đ</p>
+        </div>
+        <div class="card">
+          <h3>Plus</h3>
+          <p>Đa trang, blog đơn giản</p>
+          <p class="price">1.499.000đ</p>
+        </div>
+      </div>
+      <p class="note">Giá có thể thay đổi theo yêu cầu. Mình luôn báo trước và minh bạch.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Liên hệ</h2>
+      <form id="contactForm">
+        <label>Tên</label>
+        <input type="text" name="name" required />
+        <label>Email</label>
+        <input type="email" name="email" required />
+        <label>Nội dung</label>
+        <textarea name="message" rows="5" required></textarea>
+        <button type="submit" class="btn primary">Gửi</button>
+      </form>
+      <p class="small">Hoặc email trực tiếp: yourname@example.com</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 An Dev. Làm việc tận tâm, giao đúng hẹn.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
