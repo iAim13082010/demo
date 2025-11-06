@@ -1,4 +1,4 @@
-# Landing Page — Nguyễn An (Freelancer Web)
+# Landing Page — VAK
 
 Website giới thiệu dịch vụ làm web/landing page nhanh gọn, tối ưu mobile.
 
@@ -8,17 +8,13 @@ Website giới thiệu dịch vụ làm web/landing page nhanh gọn, tối ưu 
 - Form liên hệ (demo) + Smooth scroll
 - Dễ tùy biến màu sắc, nội dung
 
-## Demo
-- Live: https://username.github.io/landing-an
-- Ảnh chụp: /assets/screenshot.png
-
 ## Công nghệ
 - HTML5, CSS3 (Flex/Grid), JavaScript thuần
 - Triển khai: GitHub Pages
 
 ## Cách chạy
 1. Tải mã nguồn:
-   - Clone: `git clone https://github.com/username/landing-an.git`
+   - Clone: `git clome https://github.com/iAim13082010/demo.git`
    - Hoặc tải ZIP và giải nén
 2. Mở file `index.html` bằng trình duyệt (không cần cài đặt gì).
 
@@ -34,5 +30,4 @@ Website giới thiệu dịch vụ làm web/landing page nhanh gọn, tối ưu 
 - [ ] Component hóa (Tailwind/Bootstrap phiên bản sau)
 
 ## Liên hệ
-- Email: yourname@example.com
-- Facebook: fb.com/yourname
+- Email: anhkhoi130810@gmail.com
